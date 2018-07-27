@@ -6,94 +6,102 @@
   grid-template-areas: "display display display display" "clear negate percent divide" "seven eight nine multiply" "four five six subtract" "one two three add" "zero zero decimal equals";
 }
 
-.display {
+.display-container {
   grid-area: display;
+  text-align: right;
 }
 
-.ac {
-  grid-area: ac;
-}
-
-.negate {
+.negate-container {
   grid-area: negate;
+  text-align: center;
 }
 
-.percent {
+.percent-container {
   grid-area: percent;
+  text-align: center;
 }
 
-.divide {
+.divide-container {
   grid-area: divide;
+  text-align: center;
 }
 
-.multiply {
+.multiply-container {
   grid-area: multiply;
+  text-align: center;
 }
 
-.subtract {
+.subtract-container {
   grid-area: subtract;
+  text-align: center;
 }
 
-.add {
+.add-container {
   grid-area: add;
+  text-align: center;
 }
 
-.equal {
-  grid-area: equal;
-}
-
-.zero {
+.zero-container {
   grid-area: zero;
+  text-align: center;
 }
 
-.dot {
-  grid-area: 6 / 3 / 7 / 4;
-}
-
-.one {
+.one-container {
   grid-area: one;
+  text-align: center;
 }
 
-.two {
+.two-container {
   grid-area: two;
+  text-align: center;
 }
 
-.three {
+.three-container {
   grid-area: three;
+  text-align: center;
 }
 
-.four {
+.four-container {
   grid-area: four;
+  text-align: center;
 }
 
-.five {
+.five-container {
   grid-area: five;
+  text-align: center;
 }
 
-.six {
+.six-container {
   grid-area: six;
+  text-align: center;
 }
 
-.seven {
+.seven-container {
   grid-area: seven;
+  text-align: center;
 }
 
-.eight {
+.eight-container {
   grid-area: eight;
+  text-align: center;
 }
 
-.nine {
+.nine-container {
   grid-area: nine;
+  text-align: center;
 }
 
-.equals {
+.equals-container {
   grid-area: equals;
+  text-align: center;
 }
 
-.decimal {
+.decimal-container {
   grid-area: decimal;
+  text-align: center;
 }
 
-.clear {
+.clear-container {
   grid-area: clear;
+  text-align: center;
 }

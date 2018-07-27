@@ -1,62 +1,73 @@
-<div class="grid-container edit-area">
-  <div class="display">
-    display
+<div class="grid-container">
+  <div class="display-container">
+    <p id="display">{{display}}</p>
   </div>
-  <div class="negate">
-    <button>+/-</button>
+
+
+  <div class="negate-container">
+    <button id="negate" (click)="negate()">+/-</button>
   </div>
-  <div class="percent">
-    <button>%</button>
+  <div class="percent-container">
+    <button id="percent" (click)="getPercent()">%</button>
   </div>
-  <div class="divide">
-    <button>/</button>
+
+
+
+  <div class="divide-container">
+    <button id="divide" (click)="clickOperator($event)">/</button>
   </div>
-  <div class="multiply">
-    <button>x</button>
+  <div class="multiply-container">
+    <button id="multiply" (click)="clickOperator($event)">*</button>
   </div>
-  <div class="subtract">
-    <button>-</button>
+  <div class="subtract-container">
+    <button id="subtract" (click)="clickOperator($event)">-</button>
   </div>
-  <div class="add">
-    <button>+</button>
+  <div class="add-container">
+    <button id="add" (click)="clickOperator($event)">+</button>
   </div>
-  <div class="zero">
-    <button>0</button>
+
+
+
+  <div class="zero-container">
+    <button id="zero" (click)="clickNum($event)">0</button>
   </div>
-  <div class="one">
-    <button>1</button>
+  <div class="one-container">
+    <button id="one" (click)="clickNum($event)">1</button>
   </div>
-  <div class="two">
-    <button>2</button>
+  <div class="two-container">
+    <button id="two" (click)="clickNum($event)">2</button>
   </div>
-  <div class="three">
-    <button>3</button>
+  <div class="three-container">
+    <button id="three" (click)="clickNum($event)">3</button>
   </div>
-  <div class="four">
-    <button>4</button>
+  <div class="four-container">
+    <button id="four" (click)="clickNum($event)">4</button>
   </div>
-  <div class="five">
-    <button>5</button>
+  <div class="five-container">
+    <button id="five" (click)="clickNum($event)">5</button>
   </div>
-  <div class="six">
-    <button>6</button>
+  <div class="six-container">
+    <button id="six" (click)="clickNum($event)">6</button>
   </div>
-  <div class="seven">
-    <button>7</button>
+  <div class="seven-container">
+    <button id="seven" (click)="clickNum($event)">7</button>
   </div>
-  <div class="eight">
-    <button>8</button>
+  <div class="eight-container">
+    <button id="eight" (click)="clickNum($event)">8</button>
   </div>
-  <div class="nine">
-    <button>9</button>
+  <div class="nine-container">
+    <button id="nine" (click)="clickNum($event)">9</button>
   </div>
-  <div class="equals">
-    <button>=</button>
+
+
+
+  <div class="equals-container">
+    <button id="equals" (click)="evaluate()">=</button>
   </div>
-  <div class="decimal">
-    <button>.</button>
+  <div class="decimal-container">
+    <button id="decimal" (click)="getDecimal()">.</button>
   </div>
-  <div class="clear">
-    <button>A/C</button>
+  <div class="clear-container">
+    <button id="clear" (click)="clear()">A/C</button>
   </div>
 </div>
