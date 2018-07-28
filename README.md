@@ -1,6 +1,6 @@
 # Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
+I'm currently in the process of learning the basics of Angular and I'm building this simple caculator app as my first Angular project. I'm also learning React & Redux and working on a similar project in that library.
 
 ## Development server
 
