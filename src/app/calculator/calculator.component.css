@@ -1,14 +1,23 @@
 .grid-container {
   display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 25% 15% 15% 15% 15% 15%;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 150px 100px 100px 100px 100px 100px;
   grid-template-areas: "display display display display" "clear negate percent divide" "seven eight nine multiply" "four five six subtract" "one two three add" "zero zero decimal equals";
 }
 
 .display-container {
   grid-area: display;
   text-align: right;
+  color: white;
+  position: relative;
+}
+
+.display-container p {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 6rem;
+  margin: 0px 20px 0px 0px;
 }
 
 .negate-container {
@@ -104,4 +113,30 @@
 .clear-container {
   grid-area: clear;
   text-align: center;
+}
+
+button {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  font-size: 2rem;
+  border: none;
+  background-color: #353535;
+  color: white;
+}
+
+#clear,
+#negate,
+#percent {
+  background-color: #a5a5a5;
+  color: black;
+}
+
+#divide,
+#multiply,
+#subtract,
+#add,
+#equals {
+  background-color: #ff940e;
+  color: white;
 }
